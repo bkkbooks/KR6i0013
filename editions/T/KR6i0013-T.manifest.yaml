@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0013/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0013/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大乘寶月童子問法經
+  identifiers:
+    krp: KR6i0013
+    cbeta: T14n0437
+    cbeta_old_id: T14n0437
+    authorityid: CA0000270
+    json_key: T0437
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0437.xml
+    old_id: T14n0437
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0013_000-T.yaml, hash: 'sha256:7f01fb93d8069913afa303ce05451540159887fc5aedfb68520c4bb6da0fc8c0'}
+  - {seq: 1, filename: KR6i0013_001-T.yaml, hash: 'sha256:df843b4217434bcc8f5ad54dcd053e176b7bf57dafbf155514c9eb02f691716f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0013_000-T.markers.yaml, hash: 'sha256:60afcf13540413467131e1171f55e93d33c52b0886f4dcc9a5fa94ceee7f6044'}
+  - {seq: 1, role: markers, filename: assets/KR6i0013_001-T.markers.yaml, hash: 'sha256:2271691ee816757b978cbf44d803b8c31efb635da4f6e9c2acf078473b5f9e1b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0013_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1767
+  label: 大乘寶月童子問法經
+  type: juan
+  level: 1
+hash: sha256:7e35d5a4a92ef450e1f6b033444f8e12f63ba30644b4db1554d0a1f610a2ee1a
