@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0013_000.yaml, hash: 'sha256:7f01fb93d8069913afa303ce05451540159887fc5aedfb68520c4bb6da0fc8c0'}
-  - {seq: 1, filename: KR6i0013_001.yaml, hash: 'sha256:5a2b474da8211e57cd3f5752fd6a4db579fee62b03cf42f6db9ae8fe42f65057'}
+  - {seq: 1, filename: KR6i0013_001.yaml, hash: 'sha256:df843b4217434bcc8f5ad54dcd053e176b7bf57dafbf155514c9eb02f691716f'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0013_001.markers.yaml, hash: 'sha256:b157a07186ab0cb6b18cbeb6ad04c3e48549f3ca306862fd9f1f273d35a819fb'}
+  - {seq: 0, role: markers, filename: assets/KR6i0013_000.markers.yaml, hash: 'sha256:162db2c1584248d0d036570334df12fc4bebdd61988ee3e844bb480a21e02dff'}
+  - {seq: 1, role: markers, filename: assets/KR6i0013_001.markers.yaml, hash: 'sha256:58443e44c64889dba4d723e4fc781a9076758d306bf0c77a1dce9e9de52d3a1c'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 大乘寶月童子問法經
   type: juan
   level: 1
-hash: sha256:1f7dc469cc2e712a7dbeafa7219c91c8e29dccc5a0e7b59eee5e8edcef4a7539
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:88e7dce42c829123e2264b358eb8beee3df59a92f09b35e60707d08162ad4c50
