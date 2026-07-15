@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0013/v1
 canonical_location: https://kanripo.org/bkk/KR6i0013/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 大乘寶月童子問法經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0013_000.yaml, hash: 'sha256:7f01fb93d8069913afa303ce05451540159887fc5aedfb68520c4bb6da0fc8c0'}
-  - {seq: 1, filename: KR6i0013_001.yaml, hash: 'sha256:df843b4217434bcc8f5ad54dcd053e176b7bf57dafbf155514c9eb02f691716f'}
+  - {seq: 1, filename: KR6i0013_001.yaml, hash: 'sha256:fda8235c4e2e85b2cdce548dd1dcd5d055e5067ab862c50c20bbacfc37f164ca'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0013_000.markers.yaml, hash: 'sha256:162db2c1584248d0d036570334df12fc4bebdd61988ee3e844bb480a21e02dff'}
-  - {seq: 1, role: markers, filename: assets/KR6i0013_001.markers.yaml, hash: 'sha256:58443e44c64889dba4d723e4fc781a9076758d306bf0c77a1dce9e9de52d3a1c'}
+  - {seq: 1, role: markers, filename: assets/KR6i0013_001.markers.yaml, hash: 'sha256:a979cd4031963e9e4f38ab86cf0a29fa3b4046829df5c6878462794f6ca186a8'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 大乘寶月童子問法經
   type: juan
   level: 1
-hash: sha256:88e7dce42c829123e2264b358eb8beee3df59a92f09b35e60707d08162ad4c50
+hash: sha256:fcc6b3057cb2be4c888c66ebce98f0ba0d67bd5afc3bb0c7b70d860296c8d90a
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
